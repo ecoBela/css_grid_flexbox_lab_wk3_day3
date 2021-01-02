@@ -1,0 +1,35 @@
+#grid-container{
+    display: grid;
+    grid-template-areas: 
+        'header'
+        'top-images'
+        'form'
+        'main-content1'
+        'main-content2'
+        'footer'
+}
+
+header{
+    grid-area: header;
+}
+
+
+#top-images{
+    grid-area: top-images;
+}
+
+form{
+    grid-area: form;
+}
+
+#main-content1{
+    grid-area: main-content1;
+}
+
+#main-content2{
+    grid-area: main-content2;
+}
+
+footer{
+    grid-area: footer;
+} 
